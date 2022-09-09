@@ -1,0 +1,267 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 3vw;
+  background-color: #52ade2;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+header nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 2.5rem;
+  background-color: #52ade2;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  background-image: url(images/map.png);
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto 0;
+  padding-top: 27%;
+  padding-bottom: 6%;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  background: #52ade2;
+  box-shadow: 0px 4px 20px 5px rgba(10, 61, 90, 0.2);
+  border-radius: 20px;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 2%;
+}
+
+h2 {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 100%;
+  color: #64bc48;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 1.5%;
+}
+
+p {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 120%;
+  text-align: center;
+  color: #646464;
+  margin: 1% auto 0;
+  text-align: center;
+}
+
+.area {
+  display: flex;
+  margin: 0 auto;
+  width: 65%;
+}
+
+h3 {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.picture-article {
+  display: flex;
+  justify-content: center;
+  margin: 1.5% auto;
+  width: 50%;
+}
+
+.picture-article-pic {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.text-link:hover {
+  border-bottom: 1px solid blue;
+}
+
+.dostop {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  grid-template-columns: repeat(3, 20vw);
+  margin-top: 1.5%;
+}
+
+.dostop-card-pic {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 1%;
+}
+
+.dostop-card-dvorec {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: relative;
+  height: auto;
+}
+
+.gallery {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: repeat(3, 20vw);
+  grid-template-rows: repeat(3, 25vw);
+  justify-content: center;
+  margin-top: 1.5%;
+}
+
+.gallery-card-pic {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 1%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 2vw auto 0;
+  width: 70%;
+}
+
+footer {
+  width: 100vw;
+  height: 13vw;
+  background-color: #52ade2;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.center-social-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 3.5vw;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 25vw;
+  gap: 0 3%;
+}
+
+.social-container-pic {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.design {
+  font-size: 1.3rem;
+}
+
+.span-box {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 0;
+  padding: 0;
+  color: #434141;
+}

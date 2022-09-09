@@ -1,0 +1,102 @@
+@media (max-width: 1199.98px) /* браузер 992 */ {
+  .h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .area {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .dostop {
+    grid-template-columns: repeat(3, 30vw);
+  }
+
+  .picture-article {
+    width: 80%;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(3, 35vw);
+  }
+
+  .video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) /* браузер 768 */ {
+  .h1 {
+    font-size: 2.3rem;
+    border-radius: 10px;
+  }
+  .nav {
+    height: 4vw;
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 767.98px) /* браузер 576 */ {
+  .h1 {
+    font-size: 1.8rem;
+  }
+  .nav {
+    height: 5vw;
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 45vw);
+    grid-template-rows: repeat(5, 50vw);
+  }
+
+  .social-container {
+    width: 40vw;
+  }
+  footer {
+    height: 20vw;
+  }
+  .design {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 575.98px) /* браузер 320 */ {
+  .nav {
+    display: none;
+  }
+  .h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .nav2 {
+    height: 1.8rem;
+  }
+  .social-container {
+    width: 60vw;
+  }
+  footer {
+    height: 30vw;
+  }
+}
